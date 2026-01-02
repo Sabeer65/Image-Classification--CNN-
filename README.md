@@ -21,30 +21,30 @@ The dataset should be organized using a directory-based structure, where each fo
 
 Example structure:
 
-data/
-├── train/
-│ ├── class_1/
-│ ├── class_2/
-├── validation/
-│ ├── class_1/
-│ ├── class_2/
-└── test/
-├── class_1/
-├── class_2/
+data  
+  train  
+    class_1  
+    class_2  
+  validation  
+    class_1  
+    class_2  
+  test  
+    class_1  
+    class_2  
 
 You may use a custom dataset or any publicly available image dataset. Dataset paths can be modified inside the notebook.
 
 ## Project Structure
 
-Image-Classification--CNN-
-├── CNN.ipynb
-├── happytest.jpg
-├── sadtest.jpg
-├── data/
-│ ├── train/
-│ ├── validation/
-│ └── test/
-└── README.md
+Image-Classification--CNN-  
+  CNN.ipynb  
+  happytest.jpg  
+  sadtest.jpg  
+  data  
+    train  
+    validation  
+    test  
+  README.md  
 
 CNN.ipynb contains the full workflow including data preprocessing, CNN model creation, training, and evaluation.  
 happytest.jpg and sadtest.jpg are sample images used for testing predictions.
